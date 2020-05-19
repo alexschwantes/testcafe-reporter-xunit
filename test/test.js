@@ -12,13 +12,3 @@ it('Should produce report with colors', function () {
 
     assert.strictEqual(report, expected);
 });
-
-it('Should produce report without colors', function () {
-    var report   = createReport(false);
-    var expected = read('./data/report-without-colors.xml');
-
-    report   = normalizeNewline(report).trim();
-    expected = normalizeNewline(expected).trim();
-
-    assert.strictEqual(report, expected);
-});
