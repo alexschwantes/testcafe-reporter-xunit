@@ -12,8 +12,13 @@
   <testcase classname="First fixture" name="Second test in first fixture" time="74">
     <failure>
     <![CDATA[
-      1) Error on page "http://example.org":
+      1) undefinedA JavaScript error occurred on "http://example.org".
+         Repeat test actions in the browser and check the console for errors.
+         If you see this error, it means that the tested website caused it. You can fix it or disable tracking JavaScript errors in TestCafe. To do the latter, enable the "--skip-js-errors" option.
+         If this error does not occur, please write a new issue at:
+         "https://github.com/DevExpress/testcafe/issues/new?template=bug-report.md".
 
+         JavaScript error details:
          Some error
 
          Browser: Chrome 41.0.2227 / Mac OS X 10.10.1
@@ -32,8 +37,21 @@
             at someFunc (some-file:1:1)
             at Object.<anonymous> (some-file:1:1)
             at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at <anonymous> (some-file:1:1)
+            at Mocha.loadFiles (some-file:1:1)
+            at Mocha.run (some-file:1:1)
+            at Object.exports.singleRun (some-file:1:1)
+            at exports.runMocha (some-file:1:1)
+            at Object.exports.handler.argv [as handler] (some-file:1:1)
+            at Object.runCommand (some-file:1:1)
+            at Object.parseArgs [as _parseArgs] (some-file:1:1)
+            at Object.parse (some-file:1:1)
+            at Object.exports.main (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
 
-      2) The specified selector does not match any element in the DOM tree.
+      2) undefinedThe specified selector does not match any element in the DOM tree.
 
          Browser: Firefox 47 / Mac OS X 10.10.1
 
@@ -49,6 +67,19 @@
 
             at someFunc (some-file:1:1)
             at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at <anonymous> (some-file:1:1)
+            at Mocha.loadFiles (some-file:1:1)
+            at Mocha.run (some-file:1:1)
+            at Object.exports.singleRun (some-file:1:1)
+            at exports.runMocha (some-file:1:1)
+            at Object.exports.handler.argv [as handler] (some-file:1:1)
+            at Object.runCommand (some-file:1:1)
+            at Object.parseArgs [as _parseArgs] (some-file:1:1)
+            at Object.parse (some-file:1:1)
+            at Object.exports.main (some-file:1:1)
             at Object.<anonymous> (some-file:1:1)
     ]]>
     </failure>
@@ -70,8 +101,7 @@
   <testcase classname="Third fixture" name="First test in third fixture" time="74">
     <failure>
     <![CDATA[
-      1) - Error in beforeEach hook -
-         The specified selector does not match any element in the DOM tree.
+      1) undefinedThe specified selector does not match any element in the DOM tree.
 
          Browser: Firefox 47 / Mac OS X 10.10.1
 
@@ -87,6 +117,19 @@
 
             at someFunc (some-file:1:1)
             at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at Object.<anonymous> (some-file:1:1)
+            at <anonymous> (some-file:1:1)
+            at Mocha.loadFiles (some-file:1:1)
+            at Mocha.run (some-file:1:1)
+            at Object.exports.singleRun (some-file:1:1)
+            at exports.runMocha (some-file:1:1)
+            at Object.exports.handler.argv [as handler] (some-file:1:1)
+            at Object.runCommand (some-file:1:1)
+            at Object.parseArgs [as _parseArgs] (some-file:1:1)
+            at Object.parse (some-file:1:1)
+            at Object.exports.main (some-file:1:1)
             at Object.<anonymous> (some-file:1:1)
     ]]>
     </failure>

@@ -8,6 +8,6 @@ try {
     someFunc();
 }
 catch (err) {
-    module.exports = createCallsiteRecord(err);
+    module.exports = createCallsiteRecord({ forError: err });
 }
 
